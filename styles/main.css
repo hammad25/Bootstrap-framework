@@ -1,0 +1,142 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation */
+.site-nav{
+    background-color: #4877fb ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.site-nav{
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700 !important;
+}
+
+nav .site-navigation .site-menu>li>a {
+    font-size: 14px;
+    padding: 10px 15px !important;
+    display: inline-block;
+    text-decoration: none!important;
+    color: rgba(255,255,255,.7);
+}
+
+
+
+
+.site-nav{}
+.logo{}
+
+/* hero */
+.hero.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    content: "";
+    background: #4877fb;
+}
+.hero {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.hero.overlay {
+    position: relative;
+}
+
+.heading {
+    font-size: 50px;
+    font-weight: 700 !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem!important;
+}
+
+.btn.custom-white-2 {
+    background-color: rgba(255,255,255,.2);
+    color: #fff;
+}
+.btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.img-fluid{
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px !important;
+}
+
+.section{
+    padding-top: 7em;
+    padding-bottom: 7em !important;
+}
+
+
+.step {
+    padding: 30px 30px 120px 30px;
+    background-color: #fff;
+    margin-bottom: -42px;
+    position: relative;
+    top: 0;
+}
+
+.h-100 {
+    height: 100%!important;
+}
+
+.icon{
+    font-size: 2em;
+    padding-bottom: 20px;
+    padding-left: 14px;
+    color: #4877fb;
+}
+
+.text-black{
+    color: black !important;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.step p{
+    color: #8a8a8a;
+    padding-bottom: 1rem;
+    font-size: 15px;
+}
+
+.step .more {
+    position: absolute;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ccc;
+    color: #fff;
+}
+
+.step .more>span {
+    font-size: 19px;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%,-50%) rotate(360deg);
+    line-height: 0;
+}
+
