@@ -340,3 +340,67 @@ h4{
 .pricing-padding{
     padding: 10px 50px 10px 50px;
 }
+
+.bg-color-blue{
+    background-color: #4877fb;
+}
+
+.site-footer {
+    background: #efefef;
+    font-size: 14px;
+    color: #888;
+    padding: 70px 0;
+}
+
+.site-footer .widget {
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.site-footer .widget h3 {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.site-footer .social li {
+    display: inline-block;
+}
+
+.site-footer .social li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    background: #777;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.site-footer .social li a>span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+
+.site-footer .widget .links {
+    width: 150px;
+}
+
+.site-footer .widget .links li {
+    margin-bottom: 10px;
+}
+.site-footer .widget .links li a {
+    color: #777;
+}
